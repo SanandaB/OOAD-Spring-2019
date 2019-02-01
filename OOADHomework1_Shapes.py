@@ -1,14 +1,16 @@
 import turtle
 
 class Shape:
+  #Constructor to assign shapes(string of shapes:circle,triangle and square) and length of string(3 in this case).
   def __init__(self, shapes,length):
     self.shapeArr = shapes
     self.numberOfShapes=length
   
-
+#Display the number of shapes(3 here)
   def displayNumberOfShapes(abc):
     print("Number of Shapes:"+abc.numberOfShapes)
-    
+ 
+#Display individual shape in single line and in 3 separate lines
   def displayIndividualShape(abc):
     print("Hello my shapes in 1 line are:",abc.shapeArr.split(","))
     print("Hello my shapes in 3 lines are:")
@@ -16,6 +18,8 @@ class Shape:
       print(shape)  
 
 
+#Identifying each shape based on the input from the function call (for example: identifyShape("circle")) from main and matching 
+#with the three options and printing animation and display text accordingly.
 
   def identifyShape(self,shape):
 
@@ -61,10 +65,14 @@ class Shape:
         ws.exitonclick()
 
         
-    
-s1 = Shape("Circle,Triangle,Square","3")
-s1.displayNumberOfShapes()
-s1.displayIndividualShape()
-s1.identifyShape("square")
+#main function that creates object of class Shape and calls constructor and respective functions    
+def main():
+    s1 = Shape("Circle,Triangle,Square","3")
+    s1.displayNumberOfShapes()
+    s1.displayIndividualShape()
+    s1.identifyShape("square")
+  
+if __name__== "__main__":
+  main()
 
 
