@@ -1,17 +1,21 @@
 # ~~~~~~~~OOAD-Spring-2019~~~~~~~~~
 
+
+
+Homework 1:
+
 Team:
 
 1. Sananda Banerjee
 2. Akash Iyengar
-
-Homework 1:
 
 The code is written in Python and turtle library is used for generating shapes to add animation. It might not run on online editors but runs fine on offline ones. 
 
 PS: The codes are generated independently, but questions 1-3 are mutually discussed and collaborated
 
 Homework 2:
+
+Team: Independently done. 
 
 For Homework 2 I have executed I have implemneted the Shapes example in C++. I have implemented the following OOP features:
 1. Inheritence
