@@ -13,4 +13,9 @@ PS: The codes are generated independently, but questions 1-3 are mutually discus
 
 Homework 2:
 
-I have implemneted the OO feature inheritence to create subclasses(Square,Triangle and Circle) of class Polygon. Also, I have implemented polymorphism by overriding function area(declared virtual) in class Polygon and overriden in subclasses with respective definitions of area. Finally I have also implemented Encapsulation as the function has the same name area and same arguments but yield different results for different shapes. 
+For Homework 2 I have executed I have implemneted the Shapes example in C++. I have implemented the following OOP features:
+1. Inheritence
+2. Polymorphism and
+3. Encapsulation
+
+Inheritence to create subclasses(Square,Triangle and Circle) of class Polygon. Also, I have implemented polymorphism by overriding function area(declared virtual) in class Polygon and overriden in subclasses with respective definitions of area. Finally I have also implemented Encapsulation as the function has the same name area and same arguments but yield different results for different shapes. 
