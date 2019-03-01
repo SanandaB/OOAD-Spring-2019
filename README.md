@@ -23,3 +23,10 @@ For Homework 2 I have executed I have implemneted the Shapes example in C++. I h
 3. Encapsulation
 
 Inheritence to create subclasses(Square,Triangle and Circle) of class Polygon. Also, I have implemented polymorphism by overriding function area(declared virtual) in class Polygon and overriden in subclasses with respective definitions of area. Finally I have also implemented Encapsulation as the function has the same name area and same arguments but yield different results for different shapes. 
+
+
+Homework 3:
+
+Team: Sananda Banerjee
+
+OO Features like Inheritence, Abstraction and Encapsulation has been extensively used. The UML diagram in the report refelects use of association, aggregation and composition. 
